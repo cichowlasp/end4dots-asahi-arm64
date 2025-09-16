@@ -3,7 +3,7 @@
 Instructions for running End4 Dots on Asahi Linux (ARM64). This guide provides step-by-step instructions for setting up a customized Hyprland environment on Asahi Linux Fedora KDE variant.
 
 ![End4Dots on Asahi Preview](screenshots/preview.png)
-*Screenshot placeholder: End4Dots running on Asahi Linux*
+*End4Dots running on Asahi Linux*
 
 ## Prerequisites
 
@@ -29,7 +29,7 @@ Instructions for running End4 Dots on Asahi Linux (ARM64). This guide provides s
    ```
 
 ![Configuration Files](screenshots/config-files.png)
-*Screenshot placeholder: File structure after copying*
+*File structure after copying*
 
 ### 2. Enable Required Repositories
 
@@ -60,7 +60,7 @@ sudo dnf config-manager addrepo --from-repofile=https://download.opensuse.org/re
    ```
 
 ![Script Modifications](screenshots/script-mods.png)
-*Screenshot placeholder: Modified install.sh script*
+*Modified install.sh script*
 
 ### 4. Manual Package Building
 
@@ -143,4 +143,4 @@ If you encounter any build errors during the microtex stage, try installing the 
 After successful installation, you should have a fully functional End4Dots environment running on your Asahi Linux system.
 
 ![Final Result](screenshots/final-result.png)
-*Screenshot placeholder: Final desktop environment*
+*Final desktop environment*
