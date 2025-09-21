@@ -2,6 +2,21 @@
 
 Instructions for running End4 Dots on Asahi Linux (ARM64). This guide provides step-by-step instructions for setting up a customized Hyprland environment on Asahi Linux Fedora KDE variant.
 
+## System Requirements
+
+- Apple Silicon Mac (M1/M2 series)
+- Minimum 32GB storage space
+- 8GB RAM recommended
+- Working internet connection
+
+## Tested Configuration
+
+- Device: MacBook Pro (14-inch, M1 Pro, 2021)
+- OS: Fedora Linux Asahi Remix 42
+- Kernel: Linux 6.16.4-402.asahi.fc42.aarch64
+- Display: 3024x1890 @ 60Hz
+- WM: Hyprland 0.51.0 (Wayland)
+
 ![End4Dots on Asahi Preview](screenshots/preview.png)
 *End4Dots running on Asahi Linux*
 
@@ -138,9 +153,15 @@ If you encounter any build errors during the microtex stage, try installing the 
 ![Troubleshooting](screenshots/troubleshooting.png)
 *Screenshot placeholder: Common error resolution*
 
-## Result
+## Expected Result
 
-After successful installation, you should have a fully functional End4Dots environment running on your Asahi Linux system.
+After successful installation, you should have:
+- Hyprland 0.51.0 or later running on Wayland
+- Full hardware acceleration support
+- Working battery management
+- Functional WiFi and Bluetooth
+- Custom terminal configuration with Fish shell and JetBrains Mono font
+- Material You-based theming
 
 ![Final Result](screenshots/final-result.png)
-*Final desktop environment*
+*End4Dots running on MacBook Pro with full hardware support*
